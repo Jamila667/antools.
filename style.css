@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --poppins:"poppins", sans-serif;
+}
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#283036;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:1224px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.nav_list{
+    width: 435px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+
+}
+
+.header_btn{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav_link{
+   font-family: var(--poppins);
+   font-weight: 500;
+   font-size: 16px; 
+   text-transform: capitalize;
+   color:rgba(255, 255, 255, 0.7);
+}
+
+.header_btn a{
+    font-family: var(--poppins);
+    font-weight: 600;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+
+}
+
+.header_register{
+    width: 118px;
+    background-color: #ff6e30;
+    border-radius: 8px;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.nav_link{
+    display: flex;
+    align-items: center;
+}
+
+.hero_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_text h1{
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: capitalize;
+    color:white;
+    margin-bottom: 30px;
+
+}
+
+.dot{
+    color:#ff6e30;
+}
+
+.hero_text p{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+
+.home_input {
+  width: 498px;
+  height: 64px;
+  background-color: hsl(206, 15%, 18%);
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_input div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home_input button {
+  width: 130px;
+  height: 48px;
+  background-color: #FF6E30;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.home_input input {
+  width: 310px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+.hero_media {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+
+
